@@ -1,0 +1,88 @@
+*
+  box-sizing: border-box
+
+body
+  font-family: 'Mulish', sans-serif
+  color: $text-color
+  background-color: $secondary
+
+.container
+  max-width: 1110px
+  margin: auto
+
+img
+  max-width: 100%
+
+input::placeholder
+  color: #BDBDBD
+
+.form
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+
+.input
+  background-color: #fff
+  border-radius: 4px
+  border: none
+  padding: 0 23px
+  height: 50px
+  font-style: normal
+  font-weight: normal
+  font-size: 12px
+  line-height: 15px
+  outline: none
+
+.message  
+  min-height: 123px
+  background-color: #fff
+  border-radius: 4px
+  border: none
+  padding: 18px 23px
+  font-style: normal
+  font-weight: normal
+  font-size: 12px
+  line-height: 15px
+  outline: none
+  &::placeholder
+    color: #BDBDBD
+
+
+.button
+  max-width: 300px
+  font-style: normal
+  font-weight: bold
+  font-size: 12px
+  line-height: 15px
+  border-radius: 4px
+  border: none
+  color: $light
+  background-color: $primary
+  padding: 18px 66px
+  cursor: pointer
+
+.invalid
+  color: $primary
+
+label.invalid
+  position: absolute
+  top: -20px
+  left: 15px
+  font-size: 12px
+  background-color: $invalid-color
+  color: $light
+  padding: 5px 10px
+  border-radius: 5px
+  z-index: 100
+  &::after
+    content: ''
+    position: absolute
+    left: 15px
+    bottom: -5px
+    background-color: $invalid-color
+    width: 10px
+    height: 10px
+    transform: rotate(45deg)
+    
+

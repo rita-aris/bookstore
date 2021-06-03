@@ -2,9 +2,43 @@
   .container
     max-width: 960px
 
+  .card
+    &-book
+      &__image
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        
+
 @media (max-width: 992px)
   .container
     max-width: 700px
+
+  .card    
+    &-info
+      &__title
+        width: 280px
+        font-size: 40px
+        line-height: 40px
+      &__text
+        line-height: 23px
+        margin-bottom: 30px
+      &__links
+        display: flex
+        flex-direction: column
+      &__buy
+        padding-right: 52px
+        padding-left: 52px
+        margin-right: 0
+        margin-bottom: 15px
+    &-book
+      height: 400px
+      &__image
+        width: 200px
+        height: 300px        
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
 
 @media (min-width: 992px)
   button:hover
@@ -15,6 +49,9 @@
     &:hover
       text-decoration: none
       background-color: $grey
+  .recomendation__icon
+    &:hover
+      fill: red
 
 @media (max-width: 768px)
   .container
@@ -37,6 +74,26 @@
       width: 22px
       height: 2px
       background-color: $menu-button-color
+  
+  .card
+    &-wrapper
+      flex-direction: column
+      align-items: start
+    &-info
+      width: 100%
+      &__title
+        width: 443px
+      &__links
+        display: block
+      &__buy
+        margin-right: 20px
+      &__read
+        margin-bottom: 36px
+    &-book
+      &__image
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
 
 @media (max-width: 576px) 
   .container
@@ -44,7 +101,50 @@
   .navbar
     &-wrapper
       padding-top: 20px
+      padding-bottom: 35px
     &__button
       &-mobile
         margin-right: 10px
+
+  .card
+    &-wrapper
+      align-items: center
+    &-info
+      align-items: center
+      &__title
+        font-size: 32px
+        margin-bottom: 24px
+        text-align: center
+      &__author
+        font-size: 16px
+        margin-bottom: 15px
+        text-align: center
+      &__text
+        font-size: 16px
+        text-align: center
+        margin-bottom: 12px
+      &__links
+        display: flex
+        flex-direction: column
+        align-items: center
+      &__buy
+        padding: 9px 20px
+        margin-right: 0
+      &__read
+        padding: 7px 18px
+    &-book
+      width: 280px
+      height: 332px
+      &__image
+        width: 143px
+        height: 214px
+
+@media (min-width: 320px) and (max-width: 480px)
+  .card
+    &-info
+      &__title
+        width: 280px
+
+
+
 

@@ -1,7 +1,7 @@
 $(document).ready(function () {
   const genreSwiper = new Swiper(".genre-slider", {
     // Optional parameters
-    loop: true,
+    loop: false,
 
     keyboard: {
       enabled: true,

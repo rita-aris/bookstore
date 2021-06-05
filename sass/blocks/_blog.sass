@@ -1,0 +1,98 @@
+.blog
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 100px 0 100px 0
+  &__first
+    display: flex
+    flex-direction: column
+  &__second
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    min-height: 600px
+  &__block
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    min-height: 520px
+  &__article
+    display: flex
+    &-wrapper
+      display: flex
+      flex-direction: column
+  &__title
+    font-family: 'Roboto Condensed', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 48px
+    line-height: 60px
+    letter-spacing: 0.2px
+    margin-bottom: 40px
+    margin-top: 0
+  &__image
+    width: 556px
+    height: 330px
+    margin-bottom: 30px
+    &--small
+      width: 250px
+      height: 150px
+      margin-bottom: 16px
+      margin-right: 36px
+  &__date
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 20px
+    color: $paragraph-color
+    text-transform: uppercase
+    margin-bottom: 16px
+  &__name
+    font-family: 'Roboto Condensed', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 32px
+    letter-spacing: 0.2px
+    margin-bottom: 16px
+    &--small
+      max-width: 266px
+      font-family: 'Roboto', sans-serif
+      font-style: normal
+      font-weight: 500
+      font-size: 22px
+      margin-bottom: 18px
+  &__text
+    max-width: 536px
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 32px
+    color: $paragraph-color
+  &__read
+    font-family: 'Roboto Condensed', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    letter-spacing: 0.2px
+    color: $primary
+    text-decoration: none 
+    text-transform: uppercase
+  &__link
+    display: block
+    max-width: 179px
+    font-family: 'Roboto Condensed', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    text-align: center
+    letter-spacing: 0.2px
+    color: $primary
+    border: 2px solid $primary
+    border-radius: 22px
+    text-decoration: none
+    padding: 12px 50px
+    margin-left: auto

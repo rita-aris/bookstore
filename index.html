@@ -311,59 +311,56 @@
     <section class="genre">
       <div class="genre-container">
         <div class="genre-wrapper">
-          <div class="genre-slider">
-            <div class="genre-slider-wrapper">
+          <div class="swiper-container genre-slider">
+            <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="genre-slider__slide">
-                <img src="img/best-book-1.png" alt="" />
-              </div>
-              <div class="genre-slider__slide">
-                <img src="img/best-book-2.png" alt="" />
-              </div>
-
-              <div class="genre-slider__slide">
-                <div class="genre-list">
-                  <div class="genre-block">
-                    <img
-                      class="genre__image"
-                      src="img/presentation.svg"
-                      alt="Icon: Presentation"
-                    />
-                    <span class="genre__name">Бизнес & Финансы</span>
-                    <span class="genre__info">Книги про мир бизнеса</span>
-                  </div>
-                  <!-- /.genre-block 1 -->
-                  <div class="genre-block">
-                    <img
-                      class="genre__image"
-                      src="img/diamond.svg"
-                      alt="Icon: Diamond"
-                    />
-                    <span class="genre__name">Самомотиватия</span>
-                    <span class="genre__info">Книги о мотивации</span>
-                  </div>
-                  <!-- /.genre-block 2 -->
-                  <div class="genre-block">
-                    <img
-                      class="genre__image"
-                      src="img/book.svg"
-                      alt="Icon: Book"
-                    />
-                    <span class="genre__name">Романы Теленовеллы</span>
-                    <span class="genre__info">Книги с крутыми историями</span>
-                  </div>
-                  <!-- /.genre-block 3 -->
-                  <div class="genre-block">
-                    <img
-                      class="genre__image"
-                      src="img/group.svg"
-                      alt="Icon: Group"
-                    />
-                    <span class="genre__name">Навыки будущего</span>
-                    <span class="genre__info">Книги для самоподготовки </span>
-                  </div>
-                  <!-- /.genre-block 4 -->
+              <div class="swiper-slide genre-slider__slide">
+                <div class="genre-block">
+                  <img
+                    class="genre__image"
+                    src="img/presentation.svg"
+                    alt="Icon: Presentation"
+                  />
+                  <span class="genre__name">Бизнес & Финансы</span>
+                  <span class="genre__info">Книги про мир бизнеса</span>
                 </div>
+                <!-- /.genre-block 1 -->
+              </div>
+              <div class="swiper-slide genre-slider__slide">
+                <div class="genre-block">
+                  <img
+                    class="genre__image"
+                    src="img/diamond.svg"
+                    alt="Icon: Diamond"
+                  />
+                  <span class="genre__name">Самомотиватия</span>
+                  <span class="genre__info">Книги о мотивации</span>
+                </div>
+                <!-- /.genre-block 2 -->
+              </div>
+              <div class="swiper-slide genre-slider__slide">
+                <div class="genre-block">
+                  <img
+                    class="genre__image"
+                    src="img/book.svg"
+                    alt="Icon: Book"
+                  />
+                  <span class="genre__name">Романы Теленовеллы</span>
+                  <span class="genre__info">Книги с крутыми историями</span>
+                </div>
+                <!-- /.genre-block 3 -->
+              </div>
+              <div class="swiper-slide genre-slider__slide">
+                <div class="genre-block">
+                  <img
+                    class="genre__image"
+                    src="img/group.svg"
+                    alt="Icon: Group"
+                  />
+                  <span class="genre__name">Навыки будущего</span>
+                  <span class="genre__info">Книги для самоподготовки </span>
+                </div>
+                <!-- /.genre-block 4 -->
               </div>
             </div>
             <div class="genre-slider__button genre-slider__button--prev"></div>
@@ -375,6 +372,15 @@
       <!-- /.genre-container -->
     </section>
     <!-- /.genre -->
+    <section class="unreleased">
+      <div class="unreleased-wrapper">
+        <h2 class="unreleased__title">Неизданные книги</h2>
+        <div class="unreleased-block"></div>
+        <!-- /.unreleased-block -->
+      </div>
+      <!-- /.unreleased-wrapper -->
+    </section>
+    <!-- /.unreleased -->
 
     <section class="partners">
       <div class="partners-wrapper">
@@ -424,6 +430,81 @@
       <!-- /.partners-wrapper -->
     </section>
     <!-- /.partners -->
+    <section class="blog">
+      <div class="container">
+        <div class="blog-wrapper">
+          <div class="blog__first">
+            <h2 class="blog__title">Ehya Блог</h2>
+            <img
+              class="blog__image"
+              src="img/article-1.jpg"
+              alt="Image: Article-1"
+            />
+            <span class="blog__name">Success Steps For Your Business Life</span>
+            <p class="blog__text">
+              This is the author story section. Every week we try to give you
+              the story of book writer. Tell all of you the behind the scene of
+              their books.
+            </p>
+          </div>
+          <!-- /.blog-first -->
+          <div class="blog__second">
+            <a href="#" class="blog__link">Все Блоги</a>
+            <div class="blog__block">
+              <div class="blog__article">
+                <img
+                  class="blog__image blog__image--small"
+                  src="img/article-2.jpg"
+                  alt="Image: Article-2"
+                />
+                <div class="blog__article-wrapper">
+                  <span class="blog__date">23 МАРТА 2020</span>
+                  <span class="blog__name blog__name--small"
+                    >29 Motivational Quotes for Work Environments</span
+                  >
+                  <a href="#" class="blog__read">Читать</a>
+                </div>
+              </div>
+              <!-- /.blog__article 1-->
+              <div class="blog__article">
+                <img
+                  class="blog__image blog__image--small"
+                  src="img/article-3.jpg"
+                  alt="Image: Article-3"
+                />
+                <div class="blog__article-wrapper">
+                  <span class="blog__date">28 МАРТА 2020</span>
+                  <span class="blog__name blog__name--small"
+                    >Learn To Love Growth and You Will Be A Success</span
+                  >
+                  <a href="#" class="blog__read">Читать</a>
+                </div>
+              </div>
+              <!-- /.blog__article 2-->
+              <div class="blog__article">
+                <img
+                  class="blog__image blog__image--small"
+                  src="img/article-4.jpg"
+                  alt="Image: Article-4"
+                />
+                <div class="blog__article-wrapper">
+                  <span class="blog__date">28 МАРТА 2020</span>
+                  <span class="blog__name blog__name--small"
+                    >Motivation How To Build Trust at your Work</span
+                  >
+                  <a href="#" class="blog__read">Читать</a>
+                </div>
+              </div>
+              <!-- /.blog__article 3-->
+            </div>
+          </div>
+          <!-- /.blog-second -->
+        </div>
+        <!-- /.blog-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.blog -->
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>

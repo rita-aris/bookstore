@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const hotelSwiper = new Swiper(".genre-slider", {
+  const genreSwiper = new Swiper(".genre-slider", {
     // Optional parameters
     loop: true,
 

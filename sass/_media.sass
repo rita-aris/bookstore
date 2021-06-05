@@ -36,7 +36,8 @@
 
   .partners
     &-block
-      max-width: 960px
+      &__first, &__second
+        max-width: 960px
     &__item
       width: 240px
 
@@ -114,9 +115,16 @@
 
   .partners
     &-block
-      max-width: 700px
+      &__first
+        flex-wrap: wrap
+        max-width: 700px
+        min-height: 150px
+        margin-bottom: 0
+      &__second
+        display: none
     &__item
-      width: 175px
+      width: 190px
+
 
 
 @media (min-width: 992px)
@@ -220,13 +228,11 @@
       
   .partners
     &-block
-      width: 92%
+      &__first
+        width: 92%
     &__title
       max-width: 50%
-    &__item
-      width: 190px
-      &:nth-child(7), &:nth-child(8), &:nth-child(9), &:nth-child(10), &:nth-child(11), &:nth-child(12),
-        display: none
+    
         
       
 @media (max-width: 576px) 
@@ -387,8 +393,9 @@
       padding-top: 20px
       padding-bottom: 58px
     &-block
-      width: 90%
-      min-height: 150px
+      &__first
+        width: 90%
+        min-height: 150px
     &__title
       line-height: 30px
       max-width: 280px

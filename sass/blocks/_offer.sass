@@ -12,6 +12,15 @@
     margin-top: 0
   &__first
     margin-right: 32px
+  &__block
+    display: flex
+    flex-direction: column 
+    align-items: center
+    justify-content: space-between
+    min-height: 950px
+    border-radius: 8px
+    overflow: hidden
+    background-color: $light-grey
   
 .recomendation
   &-block
@@ -111,10 +120,8 @@
     display: flex
     flex-direction: column
     justify-content: space-between
-    height: 950px
-    background-color: $light-grey
+    min-height: 860px
     padding: 24px 0 0 24px
-    border-radius: 8px
   &__line
     width: 100%
     height: 1px
@@ -148,11 +155,15 @@
     text-transform: uppercase
     text-decoration: none
     color: $primary
-    margin-left: -50px
+
   &-bottom
     display: flex
     flex-direction: column
+    align-items: center
     min-height: 70px
+    width: 100%
+ 
+  
     
 
     

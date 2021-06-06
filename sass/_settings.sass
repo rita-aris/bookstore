@@ -26,6 +26,29 @@ input
 input::placeholder
   color: #959EAD
 
+.invalid
+  color: $primary
+
+label.invalid
+  position: absolute
+  top: -20px
+  left: 15px
+  font-size: 12px
+  background-color: $invalid-color
+  color: $light
+  padding: 5px 10px
+  border-radius: 5px
+  z-index: 100
+  &::after
+    content: ''
+    position: absolute
+    left: 15px
+    bottom: -5px
+    background-color: $invalid-color
+    width: 10px
+    height: 10px
+    transform: rotate(45deg)
+
 
 
     

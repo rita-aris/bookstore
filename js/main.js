@@ -52,16 +52,16 @@ $(document).ready(function () {
       errorClass: "invalid",
       messages: {
         name: {
-          required: "Please specify your name",
-          minlength: "Your name must be at least 2 letters",
+          required: "Укажите ваше имя",
+          minlength: "Имя должно содержать больше 2 букв",
         },
         email: {
-          required: "We need your email address to contact you",
-          email: "Your email address must be in the format of name@domain.com",
+          required: "Нам нужен ваш адрес",
+          email: "Адрес должен быть в формате name@domain.com",
         },
         phone: {
-          required: "Phone is required",
-          minlength: "Your phone must contain 11 digits",
+          required: "Укажите ваш телефон",
+          minlength: "Номер должен содержать 11 цифр",
         },
       },
     });

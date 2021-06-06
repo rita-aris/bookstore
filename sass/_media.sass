@@ -41,6 +41,16 @@
     &__item
       width: 240px
 
+  .blog
+    &-wrapper
+      flex-direction: column
+    &__first
+      margin-bottom: 30px
+    &__second
+      flex-direction: column-reverse
+    &__link
+      margin: auto
+
 @media (max-width: 992px)
   .container
     max-width: 700px
@@ -132,7 +142,7 @@
     background-color: $grey
   a:hover
     text-decoration: underline
-  .card-info__buy, .card-info__read, .recomendation__more 
+  .card-info__buy, .card-info__read, .recomendation__more, .blog__link 
     &:hover
       text-decoration: none
       background-color: $grey
@@ -232,6 +242,25 @@
         width: 92%
     &__title
       max-width: 50%
+
+  .blog
+    &-wrapper
+      align-items: center
+    &__first
+      align-items: center
+    &__article
+      flex-direction: column
+      margin-bottom: 40px
+      &-wrapper
+        align-items: center  
+    &__name
+      &--small
+        text-align: center  
+    &__image
+      width: 335px
+      height: 200px
+      &--small
+        margin-right: 0
     
         
       
@@ -391,7 +420,7 @@
   .partners
     &-wrapper
       padding-top: 20px
-      padding-bottom: 58px
+      padding-bottom: 50px
     &-block
       &__first
         width: 90%
@@ -401,7 +430,64 @@
       max-width: 280px
       margin-bottom: 17px
     &__item
-      width: 142px
+      width: 50%
+
+
+  .blog
+    &-wrapper
+      padding-top: 56px
+      padding-bottom: 37px
+    &__first
+      margin-bottom: 12px
+    &__second
+      min-height: 450px
+    &__block
+      min-height: 332px
+    &__title
+      font-size: 28px
+      line-height: 36px
+    &__image
+      width: 280px
+      height: 120px
+      object-fit: cover
+      margin-bottom: 25px
+      border-radius: 5px
+      &--small
+        width: 90px
+        height: 90px
+        object-fit: cover
+        margin-bottom: 0
+        margin-right: 20px
+    &__name
+      font-size: 16px
+      line-height: 20px
+      margin-bottom: 3px
+      margin-right: auto
+      &--small
+        font-size: 14px
+        text-align: left
+        margin-bottom: 6px
+        max-width: 172px
+    &__text
+      font-size: 12px
+      line-height: 24px
+      max-width: 280px
+    &__article
+      flex-direction: row
+      margin-bottom: 0
+      &-wrapper
+        align-items: start
+    &__date
+      font-size: 10px
+      line-height: 20px
+      margin-bottom: 6px
+    &__read
+      font-size: 10px
+      line-height: 20px
+    &__link
+      padding-left: 40px
+      padding-right: 40px
+
 
 
 @media (min-width: 320px) and (max-width: 480px)

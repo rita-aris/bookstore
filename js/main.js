@@ -12,8 +12,38 @@ $(document).ready(function () {
 
     // Navigation arrows
     navigation: {
-      nextEl: ".genre-slider__button--next",
-      prevEl: ".genre-slider__button--prev",
+      nextEl: ".genre__button--next",
+      prevEl: ".genre__button--prev",
+    },
+
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 2,
+        slidesPerColumn: 2,
+        spaceBetween: 26,
+      },
+      // when window width is >= 576px
+      576: {
+        slidesPerView: 2,
+        slidesPerColumn: 2,
+        spaceBetween: 26,
+      },
+      // when window width is >= 768px
+      768: {
+        slidesPerView: 2,
+        slidesPerColumn: 2,
+        spaceBetween: 26,
+      },
+      992: {
+        slidesPerView: 2,
+        slidesPerColumn: 2,
+        spaceBetween: 26,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 26,
+      },
     },
   });
 
@@ -30,8 +60,8 @@ $(document).ready(function () {
 
     // Navigation arrows
     navigation: {
-      nextEl: ".unreleased-slider__button--next",
-      prevEl: ".unreleased-slider__button--prev",
+      nextEl: ".unreleased__button--next",
+      prevEl: ".unreleased__button--prev",
     },
   });
 

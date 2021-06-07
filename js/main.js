@@ -2,6 +2,7 @@ $(document).ready(function () {
   const genreSwiper = new Swiper(".genre-slider", {
     // Optional parameters
     loop: false,
+    slidesPerView: 4,
 
     keyboard: {
       enabled: true,
@@ -12,6 +13,23 @@ $(document).ready(function () {
     navigation: {
       nextEl: ".genre-slider__button--next",
       prevEl: ".genre-slider__button--prev",
+    },
+  });
+
+  const unreleasedSwiper = new Swiper(".unreleased-slider", {
+    // Optional parameters
+    loop: false,
+    slidesPerView: 5,
+
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".unreleased-slider__button--next",
+      prevEl: ".unreleased-slider__button--prev",
     },
   });
 

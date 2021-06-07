@@ -3,6 +3,7 @@ $(document).ready(function () {
     // Optional parameters
     loop: false,
     slidesPerView: 4,
+    spaceBetween: 26,
 
     keyboard: {
       enabled: true,
@@ -20,6 +21,7 @@ $(document).ready(function () {
     // Optional parameters
     loop: false,
     slidesPerView: 5,
+    spaceBetween: 30,
 
     keyboard: {
       enabled: true,

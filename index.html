@@ -27,13 +27,13 @@
           <div class="navbar-menu">
             <ul class="navbar__ul">
               <li class="navbar__item">
-                <a href="#" class="navbar__link">Рекомендации</a>
+                <a href="#recomend" class="navbar__link">Рекомендации</a>
               </li>
               <li class="navbar__item">
-                <a href="#" class="navbar__link">Книги</a>
+                <a href="#books" class="navbar__link">Книги</a>
               </li>
               <li class="navbar__item">
-                <a href="#" class="navbar__link">Блог</a>
+                <a href="#blog" class="navbar__link">Блог</a>
               </li>
             </ul>
             <button class="navbar__button" data-toggle="modal">Получить</button>
@@ -87,7 +87,7 @@
       <div class="container">
         <div class="offer-wrapper">
           <div class="offer__first recomendation">
-            <h2 class="offer__title">Рекомендации</h2>
+            <h2 class="offer__title"> <a name="recomend">Рекомендации</a> </h2>
             <div class="recomendation-block">
               <div class="recomendation-book">
                 <div class="recomendation-book__image">
@@ -428,7 +428,7 @@
     <section class="unreleased">
       <div class="container">
         <div class="unreleased-wrapper">
-        <h2 class="unreleased__title">Неизданные книги</h2>
+        <h2 class="unreleased__title"> <a name="books">Неизданные книги</a> </h2>
         <div class="unreleased__button unreleased__button--prev"></div>
         <div class="unreleased__button unreleased__button--next"></div>
         <div class="swiper-container unreleased-slider">
@@ -601,7 +601,7 @@
       <div class="container">
         <div class="blog-wrapper">
           <div class="blog__first">
-            <h2 class="blog__title">Ehya Блог</h2>
+            <h2 class="blog__title"> <a name="blog">Ehya Блог</a></h2>
             <img
               class="blog__image"
               src="img/article-1.jpg"
@@ -834,7 +834,7 @@
 
           <textarea
             class="message modal__message"
-            placeholder="Message"
+            placeholder="Ваше сообщение"
             name="message"
           ></textarea>
           <div class="modal__send">

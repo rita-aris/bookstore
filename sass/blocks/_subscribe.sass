@@ -1,8 +1,18 @@
 .subscribe
-  &-wrapper
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    left: 146.49%
+    right: -150.53%
+    top: -25.42%
+    bottom: -377.12%
+    background-color: #F5E5E5
+    transform: rotate(90deg)
+  &-wrapper    
     background-color: $primary
     padding: 30px 60px 50px 60px
-    border-radius: 12px
+    border-radius: 12px    
   &-block
     display: flex
     justify-content: space-between
@@ -55,3 +65,4 @@
     position: absolute
     top: 24px
     left: 18px
+

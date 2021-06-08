@@ -75,6 +75,12 @@
       width: 150px
       height: 220px
 
+  .story
+    &-wrapper
+      padding-right: 0
+      padding-left: 0
+        
+
 @media (max-width: 992px)
   .container
     max-width: 700px
@@ -177,6 +183,25 @@
       &__slide
         height: calc((100% - 30px)/2
 
+  .story
+    &-block
+      &:nth-child(3)
+        display: none
+    &__video
+      &-emelda, &-mar
+        width: 252px
+        height: 160px
+    &__info
+      flex-direction: column
+      align-items: center
+    &__title
+      margin-bottom: 24px
+    &__paragraph
+      max-width: 100%
+      text-align: center
+    &__title
+      text-align: center
+
   .footer
     &__main
       flex-direction: column
@@ -185,7 +210,6 @@
       align-items: center
       justify-content: space-between
       margin-bottom: 30px
-
 
 
 @media (min-width: 992px)
@@ -202,7 +226,6 @@
   .recomendation__icon
     &:hover
       fill: red
-
     
   .bestseller__more
     &:hover
@@ -366,6 +389,7 @@
       margin: 0 auto
       right: 0
       left: 0
+        
 
   .footer
     &__main
@@ -681,6 +705,43 @@
       &__slide
         margin: 0 auto
 
+  .story
+    padding-top: 44px
+    padding-bottom: 42px
+    &__title
+      font-size: 28px
+      line-height: 36px
+    &__paragraph
+      font-size: 18px
+      line-height: 25px
+    &__video
+      display: flex
+      align-items: center
+      flex-direction: column
+      &-primary
+        width: 300px
+        height: 210px
+        margin-bottom: 15px
+      &-secondary
+        width: 300px
+      &-emelda, &-mar
+        width: 140px
+        height: 138px
+        margin-bottom: 16px
+    &__bottom
+      flex-direction: column
+      align-items: center
+    &-info
+      &__name
+        font-size: 16px
+        line-height: 20px
+        text-align: center
+      &__detail
+        font-size: 12px
+        line-height: 20px
+        text-align: center
+        margin-bottom: 16px
+                
   .footer
     &-wrapper
       padding-top: 48px

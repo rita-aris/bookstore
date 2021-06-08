@@ -239,12 +239,39 @@
       text-decoration: none
 
 @media (max-width: 768px)
+  body
+    padding-top: 137px
   .container
     width: 92%
   .navbar
     &-menu
       display: none
+      &--visible
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: start
+        position: fixed
+        max-height: 90%
+        left: 0
+        right: 0
+        bottom: 0
+        top: 137px
+        background-color: $primary
+        overflow-y: scroll
+    &--mobile
+      &--fixed
+        position: fixed
+        left: 0
+        top: 0
+        right: 0
+        z-index: 110
     &__button
+      background-color: $light  
+      margin-top: 20px 
+      font-size: 26px
+      line-height: 32px 
+      max-width: 200px
       &-mobile
         display: flex
         flex-direction: column
@@ -259,6 +286,20 @@
       width: 22px
       height: 2px
       background-color: $menu-button-color
+    &__item
+      &--light
+        margin-top: 20px
+    &__link
+      &--light
+        color: $light        
+        font-size: 26px
+        line-height: 32px
+    &__ul
+      &--column
+        flex-direction: column
+        align-items: center
+        padding-right: 0
+
   
   .card
     &-wrapper
@@ -415,17 +456,20 @@
     &__title, &__item
       text-align: center  
 
-
-
-        
+       
       
 @media (max-width: 576px) 
+  body
+    padding-top: 86px
   .container
     width: 90%
   .navbar
     &-wrapper
       padding-top: 20px
       padding-bottom: 35px
+    &-menu
+      &--visible
+        top: 86px
     &__button
       &-mobile
         margin-right: 10px

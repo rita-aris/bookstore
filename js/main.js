@@ -138,9 +138,9 @@ $(document).ready(function () {
     });
   });
 
-  var menuButton = $(".menu-button");
+  var menuButton = $(".navbar__button-mobile");
   menuButton.on("click", function () {
-    $(".navbar-bottom").toggleClass("navbar-bottom--visible");
+    $(".navbar-menu").toggleClass("navbar-menu--visible");
   });
 
   var modalButton = $("[data-toggle=modal]");

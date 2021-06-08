@@ -13,7 +13,7 @@ $email = $_POST['email'];
 // Формирование самого письма
 if ($email) {
     if ($name) {
-        $title = "Новый заказ Best Tour Plan";
+        $title = "Новый заказ Ehya";
         $body = "
         <h2>Поступил новый заказ</h2>
         <b>Имя:</b> $name<br>
@@ -22,14 +22,14 @@ if ($email) {
         <b>Сообщение:</b><br>$message
         ";
     } else {
-        $title = "Новая подписка Best Tour Plan";
+        $title = "Новая подписка Ehya";
         $body = "
         <h2>Новая подписка</h2>
         <b>Почта:</b> $email<br>
         ";
     }    
 } else {
-    $title = "Новое обращение Best Tour Plan";
+    $title = "Новое обращение Ehya";
     $body = "
     <h2>Новое обращение</h2>
     <b>Имя:</b> $name<br>

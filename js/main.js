@@ -2,8 +2,6 @@ $(document).ready(function () {
   const genreSwiper = new Swiper(".genre-slider", {
     // Optional parameters
     loop: false,
-    slidesPerView: 4,
-    spaceBetween: 26,
 
     keyboard: {
       enabled: true,
@@ -21,7 +19,7 @@ $(document).ready(function () {
       320: {
         slidesPerView: 2,
         slidesPerColumn: 2,
-        spaceBetween: 26,
+        spaceBetween: 10,
       },
       // when window width is >= 576px
       576: {
@@ -38,7 +36,6 @@ $(document).ready(function () {
       992: {
         slidesPerView: 2,
         slidesPerColumn: 2,
-        spaceBetween: 26,
       },
       1200: {
         slidesPerView: 4,
@@ -62,6 +59,31 @@ $(document).ready(function () {
     navigation: {
       nextEl: ".unreleased__button--next",
       prevEl: ".unreleased__button--prev",
+    },
+
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+      },
+      // when window width is >= 576px
+      576: {
+        slidesPerView: 2,
+        slidesPerColumn: 2,
+      },
+      // when window width is >= 768px
+      768: {
+        slidesPerView: 2,
+        slidesPerColumn: 2,
+      },
+      992: {
+        slidesPerView: 5,
+        spaceBetween: 26,
+      },
+      1200: {
+        slidesPerView: 5,
+        spaceBetween: 26,
+      },
     },
   });
 

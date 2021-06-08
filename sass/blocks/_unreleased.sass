@@ -18,10 +18,14 @@
     color: $light
     margin-top: 0
     margin-bottom: 60px
-
-  &__button
+  &__arrows
     position: absolute
+    display: flex
+    justify-content: space-between
     top: 0
+    right: 0
+    width: 132px
+  &__button 
     width: 56px
     height: 56px
     background-repeat: no-repeat
@@ -33,10 +37,8 @@
     &--prev        
       background-image: url('../img/arrow-2-next.svg')
       transform: rotateY(180deg)
-      right: 78px
     &--next
       background-image: url('../img/arrow-2-next.svg')
-      right: 0
   .swiper-button-disabled
     background-image: url('../img/arrow-2-prev.svg')
     transform: rotateY(180deg)

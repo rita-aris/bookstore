@@ -55,11 +55,25 @@
       max-width: 280px
 
   .genre
+    &-wrapper
+      max-width: 700px
+      margin: 0 auto
     &-slider
-      max-width: 910px
+      width: 560px
       height: 600px
       &__slide
         height: calc((100% - 30px)/2)
+    &__button
+      top: 45%
+      &--prev
+        left: 10%        
+      &--next
+        right: 10%
+  
+  .unreleased
+    &__image
+      width: 150px
+      height: 220px
 
 @media (max-width: 992px)
   .container
@@ -151,18 +165,17 @@
       max-width: 393px
       text-align: center
 
-  .genre
+  .unreleased
+    &__books
+      max-width: 700px
+      margin: 0 auto
     &-slider
-      max-width: 650px
+      width: 400px
       height: 600px
+    &-slider
+      height: 500px
       &__slide
         height: calc((100% - 30px)/2
-    &__button
-      top: 45%
-      &--prev
-        left: 10%        
-      &--next
-        right: 10%
 
   .footer
     &__main
@@ -334,11 +347,25 @@
       font-size: 12px
       line-height: 20px
     &-slider
-      max-width: 90%
+      width: 70%
       height: 500px
       &__slide
         height: calc((100% - 30px)/2
 
+  .unreleased
+    &-wrapper
+      height: 700px
+    &-books
+      width: 80%
+    &__title
+      font-size: 28px
+      line-height: 36px
+      text-align: center
+    &__arrows
+      top: 90%
+      margin: 0 auto
+      right: 0
+      left: 0
 
   .footer
     &__main
@@ -597,6 +624,43 @@
     &__button
       height: 50%
       top: 50px
+
+  .genre
+    &-container
+      width: 90%
+    &-wrapper
+      max-width: 80%
+    &-block
+      max-width: 160px
+      padding-right: 20px
+      padding-left: 20px
+    &__name
+      &--mb-30
+        margin-bottom: 30px
+    &-slider
+      width: 80%
+      height: 500px
+    &__button
+      top: 92%
+      &--prev
+        left: 35%
+      &--next
+        right: 35%
+
+  .unreleased
+    &-wrapper
+      height: 450px
+    &__books
+      max-width: 210px
+      height: 300px
+    &__title
+      margin-bottom: 32px
+    &__image
+      width: 206px
+      height: 300px
+    &-slide
+      &__slide
+        margin: 0 auto
 
   .footer
     &-wrapper

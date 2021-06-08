@@ -209,6 +209,7 @@
       flex-direction: row
       align-items: center
       justify-content: space-between
+      width: 100%
       margin-bottom: 30px
 
 
@@ -388,16 +389,18 @@
       top: 90%
       margin: 0 auto
       right: 0
-      left: 0
-        
+      left: 0        
 
   .footer
     &__main
-      align-items: center   
+      align-items: center 
+    &__logo
+      margin-bottom: 0  
     &__first
       width: 80%  
     &__second
       flex-wrap: wrap
+      max-width: 80%
       min-height: 600px
     &__product, &__services, &__company, &__more
       flex-basis: 50%
@@ -637,6 +640,7 @@
   .subscribe
     background-color: $primary
     &-wrapper
+      padding-top: 25px
       padding-left: 0
       padding-right: 0
       padding-bottom: 33px
@@ -650,6 +654,7 @@
       border-radius: 8px
     &__title
       width: 100%
+      margin-bottom: 30px
     &__form
       width: 100%
     &__input
@@ -764,6 +769,7 @@
       flex-direction: column
       width: 100%
     &__second
+      max-width: 100%
       min-height: 445px
     &__info
       display: block

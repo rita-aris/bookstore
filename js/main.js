@@ -87,6 +87,57 @@ $(document).ready(function () {
     },
   });
 
+  var player;
+  var playerTwo;
+
+  $(".story__icon").on("click", function onYouTubeIframeAPIReady() {
+    player = new YT.Player("player", {
+      height: "100%",
+      width: "100%",
+      videoId: "nFo845jIkeE",
+      events: {
+        onReady: videoPlay,
+      },
+    });
+  });
+
+  function videoPlay(event) {
+    event.target.playVideo();
+  }
+
+  $(".story__icon-mini-1").on("click", function onYouTubeIframeAPIReady() {
+    player = new YT.Player("playerOne", {
+      height: "100%",
+      width: "100%",
+      videoId: "nFo845jIkeE",
+      events: {
+        onReady: videoPlay,
+      },
+    });
+  });
+
+  $(".story__icon-mini-2").on("click", function onYouTubeIframeAPIReady() {
+    player = new YT.Player("playerTwo", {
+      height: "100%",
+      width: "100%",
+      videoId: "nFo845jIkeE",
+      events: {
+        onReady: videoPlay,
+      },
+    });
+  });
+
+  $(".story__icon-mini-3").on("click", function onYouTubeIframeAPIReady() {
+    player = new YT.Player("playerThree", {
+      height: "100%",
+      width: "100%",
+      videoId: "nFo845jIkeE",
+      events: {
+        onReady: videoPlay,
+      },
+    });
+  });
+
   var menuButton = $(".menu-button");
   menuButton.on("click", function () {
     $(".navbar-bottom").toggleClass("navbar-bottom--visible");

@@ -212,6 +212,12 @@
       width: 100%
       margin-bottom: 30px
 
+  .modal
+    &__dialog
+      max-height: 90%
+      &--visible
+        overflow-y: scroll
+
 
 @media (min-width: 992px)
   button:hover
@@ -407,7 +413,10 @@
     &__info, &__bottom
       display: none
     &__title, &__item
-      text-align: center    
+      text-align: center  
+
+
+
         
       
 @media (max-width: 576px) 

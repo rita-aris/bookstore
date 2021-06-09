@@ -27,13 +27,19 @@
           <div class="navbar-menu">
             <ul class="navbar__ul navbar__ul--column">
               <li class="navbar__item navbar__item--light">
-                <a href="#recomend" class="navbar__link navbar__link--light">Рекомендации</a>
+                <a href="#recomend" class="navbar__link navbar__link--light"
+                  >Рекомендации</a
+                >
               </li>
               <li class="navbar__item navbar__item--light">
-                <a href="#books" class="navbar__link navbar__link--light">Книги</a>
+                <a href="#books" class="navbar__link navbar__link--light"
+                  >Книги</a
+                >
               </li>
               <li class="navbar__item navbar__item--light">
-                <a href="#blog" class="navbar__link navbar__link--light">Блог</a>
+                <a href="#blog" class="navbar__link navbar__link--light"
+                  >Блог</a
+                >
               </li>
             </ul>
             <button class="navbar__button" data-toggle="modal">Получить</button>
@@ -87,7 +93,7 @@
       <div class="container">
         <div class="offer-wrapper">
           <div class="offer__first recomendation">
-            <h2 class="offer__title"> <a name="recomend">Рекомендации</a> </h2>
+            <h2 class="offer__title"><a id="recomend">Рекомендации</a></h2>
             <div class="recomendation-block">
               <div class="recomendation-book">
                 <div class="recomendation-book__image">
@@ -128,7 +134,7 @@
                     <button class="book-button recomendation-book__button">
                       Купить
                     </button>
-                    <svg class="recomendation__icon" >
+                    <svg class="recomendation__icon">
                       <use xlink:href="img/sprite.svg#like"></use>
                     </svg>
                   </div>
@@ -234,76 +240,83 @@
           <!-- /.recomendation -->
           <div class="offer__second bestseller">
             <h2 class="offer__title offer__title--mb-small">Топ месяца</h2>
-            <div class="offer__block"><div class="bestseller-block">
-              <div class="bestseller-book">
-                <div class="bestseller-book__image">
-                  <img src="img/best-book-1.png" alt="Image: Best book 1" />
+            <div class="offer__block">
+              <div class="bestseller-block">
+                <div class="bestseller-book">
+                  <div class="bestseller-book__image">
+                    <img src="img/best-book-1.png" alt="Image: Best book 1" />
+                  </div>
+                  <div class="bestseller-wrapper">
+                    <h3 class="book-title bestseller-book__title">
+                      Sprint : Solve, Test in 5 Days
+                    </h3>
+                    <span class="book-price bestseller-book__price"
+                      >$23.00</span
+                    >
+                    <button class="book-button bestseller-book__button">
+                      Купить
+                    </button>
+                  </div>
                 </div>
-                <div class="bestseller-wrapper">
-                  <h3 class="book-title bestseller-book__title">
-                    Sprint : Solve, Test in 5 Days
-                  </h3>
-                  <span class="book-price bestseller-book__price">$23.00</span>
-                  <button class="book-button bestseller-book__button">
-                    Купить
-                  </button>
+                <!-- /.bestseller-book 1 -->
+                <div class="bestseller-book">
+                  <div class="bestseller-book__image">
+                    <img src="img/best-book-2.png" alt="Image: Best book 2" />
+                  </div>
+                  <div class="bestseller-wrapper">
+                    <h3 class="book-title bestseller-book__title">
+                      Hacking&nbsp;Growth Break Problem
+                    </h3>
+                    <span class="book-price bestseller-book__price"
+                      >$23.00</span
+                    >
+                    <button class="book-button bestseller-book__button">
+                      Купить
+                    </button>
+                  </div>
                 </div>
+                <!-- /.bestseller-book 2 -->
+                <div class="bestseller-book">
+                  <div class="bestseller-book__image">
+                    <img src="img/best-book-3.png" alt="Image: Best book 3" />
+                  </div>
+                  <div class="bestseller-wrapper">
+                    <h3 class="book-title bestseller-book__title">
+                      Very Nice a Novel by Mercy
+                    </h3>
+                    <span class="book-price bestseller-book__price"
+                      >$23.00</span
+                    >
+                    <button class="book-button bestseller-book__button">
+                      Купить
+                    </button>
+                  </div>
+                </div>
+                <!-- /.bestseller-book 3 -->
+                <div class="bestseller-book">
+                  <div class="bestseller-book__image">
+                    <img src="img/best-book-4.png" alt="Image: Best book-4" />
+                  </div>
+                  <div class="bestseller-wrapper">
+                    <h3 class="book-title bestseller-book__title">
+                      Hooked : How&nbsp;to Build Products
+                    </h3>
+                    <span class="book-price bestseller-book__price"
+                      >$23.00</span
+                    >
+                    <button class="book-button bestseller-book__button">
+                      Купить
+                    </button>
+                  </div>
+                </div>
+                <!-- /.bestseller-book 4 -->
               </div>
-              <!-- /.bestseller-book 1 -->
-              <div class="bestseller-book">
-                <div class="bestseller-book__image">
-                  <img src="img/best-book-2.png" alt="Image: Best book 2" />
-                </div>
-                <div class="bestseller-wrapper">
-                  <h3 class="book-title bestseller-book__title">
-                    Hacking&nbsp;Growth Break Problem
-                  </h3>
-                  <span class="book-price bestseller-book__price">$23.00</span>
-                  <button class="book-button bestseller-book__button">
-                    Купить
-                  </button>
-                </div>
-              </div>
-              <!-- /.bestseller-book 2 -->
-              <div class="bestseller-book">
-                <div class="bestseller-book__image">
-                  <img src="img/best-book-3.png" alt="Image: Best book 3" />
-                </div>
-                <div class="bestseller-wrapper">
-                  <h3 class="book-title bestseller-book__title">
-                    Very Nice a Novel by Mercy
-                  </h3>
-                  <span class="book-price bestseller-book__price">$23.00</span>
-                  <button class="book-button bestseller-book__button">
-                    Купить
-                  </button>
-                </div>
-              </div>
-              <!-- /.bestseller-book 3 -->
-              <div class="bestseller-book">
-                <div class="bestseller-book__image">
-                  <img src="img/best-book-4.png" alt="Image: Best book-4" />
-                </div>
-                <div class="bestseller-wrapper">
-                  <h3 class="book-title bestseller-book__title">
-                    Hooked : How&nbsp;to Build Products
-                  </h3>
-                  <span class="book-price bestseller-book__price">$23.00</span>
-                  <button class="book-button bestseller-book__button">
-                    Купить
-                  </button>
-                </div>
-              </div>
-              <!-- /.bestseller-book 4 -->
-              
-            </div>
-            <div class="bestseller-bottom">
+              <div class="bestseller-bottom">
                 <span class="bestseller__line"></span>
                 <a href="#" class="bestseller__more">ЛУЧШИЕ КНИГИ</a>
               </div>
-          </div>
+            </div>
             <!-- /.offer__block -->
-            
           </div>
           <!-- /.bestseller -->
         </div>
@@ -339,7 +352,9 @@
                     src="img/diamond.svg"
                     alt="Icon: Diamond"
                   />
-                  <span class="genre__name genre__name--mb-30">Самомотивация</span>
+                  <span class="genre__name genre__name--mb-30"
+                    >Самомотивация</span
+                  >
                   <span class="genre__info">Книги о мотивации</span>
                 </div>
                 <!-- /.genre-block 2 -->
@@ -387,7 +402,9 @@
                     src="img/diamond.svg"
                     alt="Icon: Diamond"
                   />
-                  <span class="genre__name genre__name--mb-30">Самомотивация</span>
+                  <span class="genre__name genre__name--mb-30"
+                    >Самомотивация</span
+                  >
                   <span class="genre__info">Книги о мотивации</span>
                 </div>
                 <!-- /.genre-block 2 -->
@@ -416,7 +433,7 @@
                 </div>
                 <!-- /.genre-block 4 -->
               </div>
-            </div>            
+            </div>
           </div>
         </div>
         <!-- /.genre-wrapper -->
@@ -428,124 +445,122 @@
     <section class="unreleased">
       <div class="container">
         <div class="unreleased-wrapper">
-        <h2 class="unreleased__title"> <a name="books">Неизданные книги</a> </h2>
-        <div class="unreleased__arrows">          
-          <div class="unreleased__button unreleased__button--prev"></div>
-          <div class="unreleased__button unreleased__button--next"></div>
-        </div>
-        <div class="unreleased__books">
-          <div class="swiper-container unreleased-slider">
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-               <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-1.png"
-                    alt="Image: Inreleased book 1"
-                  />                  
-                <!-- /.unreleased-block 1 -->
+          <h2 class="unreleased__title"><a id="books">Неизданные книги</a></h2>
+          <div class="unreleased__arrows">
+            <div class="unreleased__button unreleased__button--prev"></div>
+            <div class="unreleased__button unreleased__button--next"></div>
+          </div>
+          <div class="unreleased__books">
+            <div class="swiper-container unreleased-slider">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-1.png"
+                      alt="Image: Inreleased book 1"
+                    />
+                    <!-- /.unreleased-block 1 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-2.png"
+                      alt="Image: Inreleased book 2"
+                    />
+                    <!-- /.unreleased-block 2 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-3.png"
+                      alt="Image: Inreleased book 3"
+                    />
+                    <!-- /.unreleased-block 3 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-4.png"
+                      alt="Image: Inreleased book 4"
+                    />
+                    <!-- /.unreleased-block 4 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-5.png"
+                      alt="Image: Inreleased book 5"
+                    />
+                    <!-- /.unreleased-block 5 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-1.png"
+                      alt="Image: Inreleased book 1"
+                    />
+                    <!-- /.unreleased-block 1 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-2.png"
+                      alt="Image: Inreleased book 2"
+                    />
+                    <!-- /.unreleased-block 2 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-3.png"
+                      alt="Image: Inreleased book 3"
+                    />
+                    <!-- /.unreleased-block 3 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-4.png"
+                      alt="Image: Inreleased book 4"
+                    />
+                    <!-- /.unreleased-block 4 -->
+                  </div>
+                </div>
+                <div class="swiper-slide unreleased-slider__slide">
+                  <div class="unreleased-block">
+                    <img
+                      class="unreleased__image"
+                      src="img/unreleased-5.png"
+                      alt="Image: Inreleased book 5"
+                    />
+                    <!-- /.unreleased-block 5 -->
+                  </div>
+                </div>
               </div>
-            </div>   
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-2.png"
-                    alt="Image: Inreleased book 2"
-                  />                  
-                <!-- /.unreleased-block 2 -->
-              </div>
-            </div>   
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-3.png"
-                    alt="Image: Inreleased book 3"
-                  />                  
-                <!-- /.unreleased-block 3 -->
-              </div>
-            </div>   
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-4.png"
-                    alt="Image: Inreleased book 4"
-                  />                  
-                <!-- /.unreleased-block 4 -->
-              </div>
-            </div>   
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-5.png"
-                    alt="Image: Inreleased book 5"
-                  />                  
-                <!-- /.unreleased-block 5 -->
-              </div>
-            </div>    
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-1.png"
-                    alt="Image: Inreleased book 1"
-                  />                  
-                <!-- /.unreleased-block 1 -->
-              </div>
-            </div>   
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-2.png"
-                    alt="Image: Inreleased book 2"
-                  />                  
-                <!-- /.unreleased-block 2 -->
-              </div>
-            </div>   
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-3.png"
-                    alt="Image: Inreleased book 3"
-                  />                  
-                <!-- /.unreleased-block 3 -->
-              </div>
-            </div>   
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-4.png"
-                    alt="Image: Inreleased book 4"
-                  />                  
-                <!-- /.unreleased-block 4 -->
-              </div>
-            </div>   
-            <div class="swiper-slide unreleased-slider__slide">
-                <div class="unreleased-block">
-                  <img
-                    class="unreleased__image"
-                    src="img/unreleased-5.png"
-                    alt="Image: Inreleased book 5"
-                  />                  
-                <!-- /.unreleased-block 5 -->
-              </div>
-            </div>          
-            </div>            
+            </div>
           </div>
         </div>
-        
-      </div>
-      <!-- /.unreleased-wrapper -->
+        <!-- /.unreleased-wrapper -->
       </div>
       <!-- /.container -->
-      
     </section>
     <!-- /.unreleased -->
 
@@ -554,56 +569,89 @@
         <div class="story-wrapper">
           <div class="story__info">
             <h2 class="story__title">История Автора</h2>
-            <p class="story__paragraph">Это раздел авторского рассказа. Каждую неделю мы стараемся рассказать вам историю писателя. Расскажем всем 
-            о закулисье их книг.</p>
+            <p class="story__paragraph">
+              Это раздел авторского рассказа. Каждую неделю мы стараемся
+              рассказать вам историю писателя. Расскажем всем о закулисье их
+              книг.
+            </p>
           </div>
           <!-- /.story__info -->
           <div class="story__video">
             <div class="story__video-primary" id="player">
               <script src="https://www.youtube.com/iframe_api"></script>
-              <img src="img/play.svg" alt="Icon: Play" class="story__icon">
+              <img src="img/play.svg" alt="Icon: Play" class="story__icon" />
             </div>
-            <div class="story__video-secondary">              
+            <div class="story__video-secondary">
               <div class="story-block">
                 <div class="story__video-emelda" id="playerOne">
                   <script src="https://www.youtube.com/iframe_api"></script>
-                  <img src="img/play-mini.svg" alt="Icon: Play" class="story__icon-mini-1">
+                  <img
+                    src="img/play-mini.svg"
+                    alt="Icon: Play"
+                    class="story__icon-mini-1"
+                  />
                 </div>
                 <div class="story__bottom">
                   <div class="story-info">
-                  <span class="story-info__name">Emelda Scandroot</span>
-                  <span class="story-info__detail">Author of Books Tittle</span>
+                    <span class="story-info__name">Emelda Scandroot</span>
+                    <span class="story-info__detail"
+                      >Author of Books Tittle</span
+                    >
+                  </div>
+                  <img
+                    src="img/story-icon.svg"
+                    alt="Icon: Story icon"
+                    class="story__flag"
+                  />
                 </div>
-                <img src="img/story-icon.svg" alt="Icon: Story icon" class="story__flag">
-                </div>                
               </div>
               <!-- /.story-block 1 -->
               <div class="story-block">
                 <div class="story__video-mar" id="playerTwo">
                   <script src="https://www.youtube.com/iframe_api"></script>
-                  <img src="img/play-mini.svg" alt="Icon: Play" class="story__icon-mini-2">
+                  <img
+                    src="img/play-mini.svg"
+                    alt="Icon: Play"
+                    class="story__icon-mini-2"
+                  />
                 </div>
                 <div class="story__bottom">
                   <div class="story-info">
-                  <span class="story-info__name">Mar Rueda</span>
-                  <span class="story-info__detail">Author of Books Tittle</span>
+                    <span class="story-info__name">Mar Rueda</span>
+                    <span class="story-info__detail"
+                      >Author of Books Tittle</span
+                    >
+                  </div>
+                  <img
+                    src="img/story-icon.svg"
+                    alt="Icon: Story icon"
+                    class="story__flag"
+                  />
                 </div>
-                <img src="img/story-icon.svg" alt="Icon: Story icon" class="story__flag">
-                </div>                
               </div>
               <!-- /.story-block 2 -->
               <div class="story-block">
                 <div class="story__video-nembo" id="playerThree">
                   <script src="https://www.youtube.com/iframe_api"></script>
-                  <img src="img/play-mini.svg" alt="Icon: Play" class="story__icon-mini-3">
+                  <img
+                    src="img/play-mini.svg"
+                    alt="Icon: Play"
+                    class="story__icon-mini-3"
+                  />
                 </div>
                 <div class="story__bottom">
                   <div class="story-info">
-                  <span class="story-info__name">Nembo Lukeni</span>
-                  <span class="story-info__detail">Author of Books Tittle</span>
+                    <span class="story-info__name">Nembo Lukeni</span>
+                    <span class="story-info__detail"
+                      >Author of Books Tittle</span
+                    >
+                  </div>
+                  <img
+                    src="img/story-icon.svg"
+                    alt="Icon: Story icon"
+                    class="story__flag"
+                  />
                 </div>
-                <img src="img/story-icon.svg" alt="Icon: Story icon" class="story__flag">
-                </div>                
               </div>
               <!-- /.story-block 3 -->
             </div>
@@ -640,9 +688,9 @@
           <div class="partners__item">
             <img src="img/uber.svg" alt="Icon: Uber" />
           </div>
-          </div>
-          <div class="partners__second">
-            <div class="partners__item">
+        </div>
+        <div class="partners__second">
+          <div class="partners__item">
             <img src="img/netflix.svg" alt="Icon: Netflix" />
           </div>
           <div class="partners__item">
@@ -660,10 +708,8 @@
           <div class="partners__item">
             <img src="img/google.svg" alt="Icon: Google" />
           </div>
-          </div>
-          
         </div>
-        <!-- /.partners-block -->
+        <!-- /.partners-second -->
       </div>
       <!-- /.partners-wrapper -->
     </section>
@@ -672,7 +718,7 @@
       <div class="container">
         <div class="blog-wrapper">
           <div class="blog__first">
-            <h2 class="blog__title"> <a name="blog">Ehya Блог</a></h2>
+            <h2 class="blog__title"><a id="blog">Ehya Блог</a></h2>
             <img
               class="blog__image"
               src="img/article-1.jpg"
@@ -749,27 +795,32 @@
           <div class="circle-1"></div>
           <div class="circle-2"></div>
           <div class="subscribe-block">
-            <h2 class="subscribe__title">Будь первым, кто узнает о&nbsp;наших акциях</h2>
+            <h2 class="subscribe__title">
+              Будь первым, кто узнает о&nbsp;наших акциях
+            </h2>
             <div class="subscribe__mail">
               <form
-          action="send.php"
-          method="POST"
-          class="form subscribe__form"
-        >
-          <input
-            type="email"
-            class="input subscribe__input"
-            placeholder="Ваш Emaill"
-            name="email"
-            required
-          />
-          <img class="subscribe__icon" src="img/mail.svg" alt="Icon: Mail" >
-          <button class="subscribe__button">Регистрация</button>
-        </form>
+                action="send.php"
+                method="POST"
+                class="form subscribe__form"
+              >
+                <input
+                  type="email"
+                  class="input subscribe__input"
+                  placeholder="Ваш Emaill"
+                  name="email"
+                  required
+                />
+                <img
+                  class="subscribe__icon"
+                  src="img/mail.svg"
+                  alt="Icon: Mail"
+                />
+                <button class="subscribe__button">Регистрация</button>
+              </form>
             </div>
-          
           </div>
-          <!-- /.subscribe-block -->          
+          <!-- /.subscribe-block -->
         </div>
         <!-- /.subscribe-wrapper -->
       </div>
@@ -782,76 +833,121 @@
           <div class="footer__main">
             <div class="footer__first">
               <a href="#"
-            ><img src="img/logo.svg" alt="Image: Logo" class="footer__logo"
-          /></a>
-          <span class="footer__info">Создайте современный и креативный веб-сайт с crealand</span>
-          <div class="footer__icons">
-            <a href="https://www.google.com/"
-                class="footer__icon"
-                target="_blank"
-                rel="nofollow noopener">
-                <img src="img/igoogle.svg" alt="Icon: Google">
-            </a>
-            <a href="https://www.twitter.com/"
-                class="footer__icon"
-                target="_blank"
-                rel="nofollow noopener">
-                <img src="img/twitter.svg" alt="Icon: Twitter">
-            </a>
-            <a href="https://www.instagram.com/"
-                class="footer__icon"
-                target="_blank"
-                rel="nofollow noopener">
-                <img src="img/instagram.svg" alt="Icon: Instagram">
-            </a>
-            <a href="https://www.linkedin.cn/"
-                class="footer__icon"
-                target="_blank"
-                rel="nofollow noopener">
-                <img src="img/linkedin.svg" alt="Icon: Linkedin">                
-            </a>           
-          </div>
+                ><img src="img/logo.svg" alt="Image: Logo" class="footer__logo"
+              /></a>
+              <span class="footer__info"
+                >Создайте современный и креативный веб-сайт с crealand</span
+              >
+              <div class="footer__icons">
+                <a
+                  href="https://www.google.com/"
+                  class="footer__icon"
+                  target="_blank"
+                  rel="nofollow noopener"
+                >
+                  <img src="img/igoogle.svg" alt="Icon: Google" />
+                </a>
+                <a
+                  href="https://www.twitter.com/"
+                  class="footer__icon"
+                  target="_blank"
+                  rel="nofollow noopener"
+                >
+                  <img src="img/twitter.svg" alt="Icon: Twitter" />
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer__icon"
+                  target="_blank"
+                  rel="nofollow noopener"
+                >
+                  <img src="img/instagram.svg" alt="Icon: Instagram" />
+                </a>
+                <a
+                  href="https://www.linkedin.cn/"
+                  class="footer__icon"
+                  target="_blank"
+                  rel="nofollow noopener"
+                >
+                  <img src="img/linkedin.svg" alt="Icon: Linkedin" />
+                </a>
+              </div>
             </div>
             <!-- /.footer__first -->
             <div class="footer__second">
               <div class="footer__product">
                 <h3 class="footer__title">Продукт</h3>
                 <ul class="footer__ul">
-                  <li class="footer__item"> <a class="footer__item-link" href="#">Лэндинг</a> </li>
-                  <li class="footer__item"> <a class="footer__item-link" href="#">Функции</a> </li>
-                  <li class="footer__item"> <a class="footer__item-link" href="#">Документация</a></li>
-                  <li class="footer__item"> <a class="footer__item-link" href="#">Скидки</a></li>
-                  <li class="footer__item"> <a class="footer__item-link" href="#">Расценки</a></li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Лэндинг</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Функции</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Документация</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Скидки</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Расценки</a>
+                  </li>
                 </ul>
               </div>
               <!-- /.footer__product -->
               <div class="footer__services">
                 <h3 class="footer__title">Сервисы</h3>
                 <ul class="footer__ul">
-                  <li class="footer__item"><a class="footer__item-link" href="#">Документация</a>  </li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">Дизайн</a></li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">Темы</a></li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">Илюстрации</a></li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">UI Kit</a></li></ul>                  
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Документация</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Дизайн</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Темы</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Илюстрации</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">UI Kit</a>
+                  </li>
+                </ul>
               </div>
               <!-- /.footer__service -->
               <div class="footer__company">
                 <h3 class="footer__title">Компания</h3>
                 <ul class="footer__ul">
-                  <li class="footer__item"><a class="footer__item-link" href="#">О нас</a></li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">Условия</a></li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">Privacy Policy</a></li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">Careers</a></li>
-                </ul>                  
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">О нас</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Условия</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Privacy Policy</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Careers</a>
+                  </li>
+                </ul>
               </div>
               <!-- /.footer__company -->
               <div class="footer__more">
                 <h3 class="footer__title">Еще...</h3>
                 <ul class="footer__ul">
-                  <li class="footer__item"><a class="footer__item-link" href="#">Документация</a></li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">Лицензия</a></li>
-                  <li class="footer__item"><a class="footer__item-link" href="#">Изменения</a></li>
-                </ul>                  
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Документация</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Лицензия</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__item-link" href="#">Изменения</a>
+                  </li>
+                </ul>
               </div>
               <!-- /.footer__more -->
             </div>
@@ -859,8 +955,10 @@
           </div>
           <!-- /.footer__main -->
           <div class="footer__bottom">
-            <img class="footer__heart" src="img/heart.svg" alt="Icon: Heart" >
-            <span class="footer__copyright">Copyright © 2019. Crafted with love.</span>
+            <img class="footer__heart" src="img/heart.svg" alt="Icon: Heart" />
+            <span class="footer__copyright"
+              >Copyright © 2019. Crafted with love.</span
+            >
           </div>
           <!-- /.footer__bottom -->
         </div>
@@ -907,7 +1005,6 @@
               required
             />
           </div>
-
           <textarea
             class="message modal__message"
             placeholder="Ваше сообщение"
@@ -915,16 +1012,17 @@
           ></textarea>
           <div class="modal__send">
             <button class="modal__button">Получить</button>
-          <span class="modal__info">* Обязательные поля</span>
-        </div>
-          
+            <span class="modal__info">* Обязательные поля</span>
+          </div>
         </form>
         <!-- /.footer__form -->
       </div>
       <!-- /.modal__dialog -->
     </div>
     <!-- /.modal -->
-
+    <a href="#" class="to-top">
+      <img src="img/to-top.svg" alt="Icon: To top" class="to-top__image" />
+    </a>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>

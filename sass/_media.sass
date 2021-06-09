@@ -245,7 +245,7 @@
 
 @media (max-width: 768px)
   body
-    padding-top: 137px
+    padding-top: 100px
   .container
     width: 92%
   .navbar
@@ -261,9 +261,9 @@
         left: 0
         right: 0
         bottom: 0
-        top: 137px
+        top: 100px
         background-color: $primary
-        overflow-y: scroll
+        overflow-y: auto
     &--mobile
       &--fixed
         position: fixed
@@ -410,6 +410,12 @@
       max-width: 200px
       padding-top: 20px
       padding-bottom: 20px
+      position: absolute
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      margin: 0 auto
     &__icon
       width: 36px
       height: 36px
@@ -425,11 +431,21 @@
       width: 70%
       height: 500px
       &__slide
+        position: relative
         height: calc((100% - 30px)/2
 
   .unreleased
     &-wrapper
       height: 400px
+    &-block
+      position: relative
+    &__image
+      position: absolute
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      margin: 0 auto
     &__books
       max-width: 400px
     &__title
@@ -479,6 +495,8 @@
 
   .card
     &-wrapper
+      padding-top: 12px
+      padding-bottom: 28px
       align-items: center
     &-info
       align-items: center
@@ -494,7 +512,7 @@
       &__text
         font-size: 16px
         text-align: center
-        margin-bottom: 12px
+        margin-bottom: 18px
       &__links
         display: flex
         flex-direction: column
@@ -519,7 +537,7 @@
     &__second
       width: 100%
     &__block
-      height: 800px
+      height: 820px
     &__title
       font-size: 28px
       line-height: 36px
@@ -547,7 +565,7 @@
       text-transform: none
       padding: 14px 61px
       margin-top: 0
-      margin-bottom: 50px
+      margin-bottom: 55px
     &-book
       width: 100%
       height: 330px
@@ -591,7 +609,8 @@
     &-bottom
       width: 100%
       padding-left: 0
-      padding-top: 15px
+    &__line
+      margin-bottom: 25px
     &__more
       margin-left: 0
     &-block
@@ -599,7 +618,7 @@
       justify-content: space-between
       align-items: center
       width: 100%
-      height: 750px
+      height: 730px
       padding-left: 15px
       padding-top: 10px
     &-book
@@ -743,7 +762,8 @@
       width: 90%
     &-wrapper
       max-width: 100%
-      padding-bottom: 120px
+      padding-top: 20px
+      padding-bottom: 125px
     &-block
       width: 140px
       padding-right: 20px
@@ -770,7 +790,7 @@
 
   .unreleased
     padding-top: 50px
-    padding-bottom: 60px
+    padding-bottom: 62px
     &-wrapper
       height: 450px
     &__books
@@ -881,6 +901,8 @@
   .modal
     &__dialog
       width: 80% 
+      padding-right: 18px
+      padding-left: 18px
     &__form
       display: flex
       flex-direction: column
@@ -925,13 +947,17 @@
 
   .modal
     &__dialog
-      width: 95%
+      width: 80%
+      padding-right: 10px
+      padding-left: 10px
     &__input
       width: 100%
       &-group
-        width: 75% 
+        width: 90% 
     &__message
-      width: 75%
+      width: 90%
+    &__send
+      width: 100%
 
 
 

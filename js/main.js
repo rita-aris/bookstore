@@ -2,6 +2,7 @@ $(document).ready(function () {
   const genreSwiper = new Swiper(".genre-slider", {
     // Optional parameters
     loop: false,
+    slidesPerColumnFill: "row",
 
     keyboard: {
       enabled: true,

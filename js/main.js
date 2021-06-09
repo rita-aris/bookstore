@@ -69,12 +69,10 @@ $(document).ready(function () {
       // when window width is >= 576px
       576: {
         slidesPerView: 2,
-        slidesPerColumn: 2,
       },
       // when window width is >= 768px
       768: {
-        slidesPerView: 2,
-        slidesPerColumn: 2,
+        slidesPerView: 3,
       },
       992: {
         slidesPerView: 5,

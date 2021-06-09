@@ -176,10 +176,10 @@
       max-width: 700px
       margin: 0 auto
     &-slider
-      width: 400px
+      width: 100%
       height: 600px
     &-slider
-      height: 500px
+      height: 260px
       &__slide
         height: calc((100% - 30px)/2
 
@@ -233,6 +233,11 @@
   .recomendation__icon
     &:hover
       fill: red
+  .footer__icon
+    &:hover
+      background-color: $orange
+      border-radius: 50%
+      opacity: 0.7
     
   .bestseller__more
     &:hover
@@ -299,7 +304,6 @@
         flex-direction: column
         align-items: center
         padding-right: 0
-
   
   .card
     &-wrapper
@@ -425,9 +429,9 @@
 
   .unreleased
     &-wrapper
-      height: 700px
-    &-books
-      width: 80%
+      height: 400px
+    &__books
+      max-width: 400px
     &__title
       font-size: 28px
       line-height: 36px
@@ -778,8 +782,15 @@
       height: 300px
     &-slider
       width: 206px
+      height: 300px
       &__slide
         margin: 0 auto
+    &__arrows
+      width: 120px
+      top: 92%
+    &__button
+      width: 48px
+      height: 48px
 
   .story
     padding-top: 44px
@@ -823,6 +834,7 @@
         font-size: 16px
         line-height: 20px
         text-align: center
+        margin-top: 0
       &__detail
         font-size: 12px
         line-height: 20px

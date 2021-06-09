@@ -216,7 +216,7 @@
     &__dialog
       max-height: 90%
       &--visible
-        overflow-y: scroll
+        overflow-y: auto
 
 
 @media (min-width: 992px)
@@ -456,7 +456,15 @@
       top: 90%
       margin: 0 auto
       right: 0
-      left: 0        
+      left: 0     
+
+  .story
+    &-block
+      width: 48%
+    &__video
+      &-emelda, &-mar
+        width: 100%
+
 
   .footer
     &__main

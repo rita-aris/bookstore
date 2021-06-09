@@ -143,6 +143,11 @@ $(document).ready(function () {
     $(".navbar-menu").toggleClass("navbar-menu--visible");
   });
 
+  var redLike = $(".recomendation__icon");
+  redLike.on("click", function () {
+    $(this).toggleClass("recomendation__icon--red");
+  });
+
   var modalButton = $("[data-toggle=modal]");
   var closeModalButton = $(".modal__close");
   modalButton.on("click", openModal);

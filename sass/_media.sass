@@ -241,8 +241,8 @@
 
   .genre__button
     &:hover
-      width: 110px
-      height: 110px
+      width: 100px
+      height: 100px
 
   .unreleased__button
     &:hover
@@ -279,6 +279,8 @@
         top: 86px
         background-color: $primary
         overflow-y: auto
+      &--hidden
+        display: none
     &--mobile
       &--fixed
         position: fixed
@@ -967,6 +969,13 @@
   .story
     &__paragraph
       max-width: 280px
+
+  .genre
+    &__button
+      &--prev
+        left: 22%
+      &--next
+        right: 22%
 
   .modal
     &__dialog

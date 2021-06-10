@@ -142,6 +142,11 @@ $(document).ready(function () {
     $(".navbar-menu").toggleClass("navbar-menu--visible");
   });
 
+  var menuHide = $(".navbar__item");
+  menuHide.on("click", function () {
+    $(".navbar-menu").removeClass("navbar-menu--visible");
+  });
+
   var redLike = $(".recomendation__icon");
   redLike.on("click", function () {
     $(this).toggleClass("recomendation__icon--red");
@@ -160,6 +165,7 @@ $(document).ready(function () {
     modalOverlay.addClass("modal__overlay--visible");
     modalDialog.addClass("modal__dialog--visible");
     $("body").css("overflow", "hidden");
+    $("body").css("padding-right", "17px");
   }
 
   function closeModal(event) {
@@ -169,6 +175,7 @@ $(document).ready(function () {
       var modalDialog = $(".modal__dialog");
       modalOverlay.removeClass("modal__overlay--visible");
       modalDialog.removeClass("modal__dialog--visible");
+      $("body").css("padding-right", "0");
     }
     event.preventDefault();
   }
